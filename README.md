@@ -161,6 +161,9 @@ Key pages:
 - [WhatsApp connection troubleshooting](./docs/whatsapp-connection-troubleshooting.md)
   — what each "Save Configuration" error means, and the Meta code /
   trace id to quote to Meta support
+- [WhatsApp + Meta integration guide](./docs/whatsapp-meta-integration-guide.md)
+  — AI-agent build blueprint for connection states, webhooks, message
+  receipts, template sync, and implementation acceptance criteria
 - [Several WABAs on one deployment](./docs/multi-waba.md) — one Meta
   App or several; how `META_APP_SECRET` takes a comma-separated list
 - [Auth emails](./docs/auth-emails.md) — what Supabase must allow so
@@ -173,15 +176,12 @@ Key pages:
 - **Data** — Supabase (Postgres + Auth + Storage + RLS).
 - **WhatsApp** — Meta Cloud API (official WhatsApp Business API).
 
-## Contributing
+## Security
 
-This is a template, not a collaborative product — the expected flow is
-fork → customise → deploy, **not** upstream contribution. Bug reports
-and security issues are welcome; feature PRs often belong in your fork
-rather than here. Details in
-[`CONTRIBUTING.md`](./CONTRIBUTING.md) and
-[`.github/SECURITY.md`](./.github/SECURITY.md).
+Security issues are welcome; see [`.github/SECURITY.md`](./.github/SECURITY.md).
 
 ## License
 
 [MIT](./LICENSE). Fork it, brand it, host it.
+#   w a c r m - a i  
+ 
